@@ -1,24 +1,15 @@
-/* ID SELECTORS */
 
-#title{
-    color: brown;
-    background-color: bisque;
-}
-#subheading{
-    color: black;
-    background-color: cyan;
-}
-/* CLASS SELECTORS */
-.green{
-    color: green;
-}
 .red{
+    color: yellow;
+    background-color: black;
+}
+.green{
+    color: darkgreen
+    ;
+    background-color: black;
+}
+span{
     color: red;
-
-}
-#title{
-    font-size: 50px;
-}
-.uppercase{
     text-transform: uppercase;
-}
+
+font-style: oblique;}
