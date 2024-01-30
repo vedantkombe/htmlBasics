@@ -1,27 +1,13 @@
-/* color properties */
-/* color background */
-/* background image */
-/* RGB RED GREEN BLUE 0-255 */
-/* RGBA A-OPACITY/ transparency  0-1*/
+/*  pixels -absolute values , one dot on the screen 
+font-size - size of the font 
+WIDTH -width of the element
+HEIGHT - height of an element
+ */
 
-#first{
-    color:rgba(255,0,0, 1);
-    background-color: rgba(125,0, 20, 0.50);
-    
-}
-#second{
-    color: rgba(255, 0, 0, 0.75);
-    background: rgba(0, 20,230, 0.75);
-    
-}
-#third{
-    color: rgba(255, 0, 0, 0.50);
-    
-}
-
-#four{
-    color: rgba(255, 0, 0, 0.25);
-}
-body{
-    background:  rgb(150, 50, 30, 0.50);
+ h1{
+    font-size: 60px;
+    background: blue;
+    color: white;
+width: 1000px;
+height: 400px;
 }
