@@ -1,26 +1,27 @@
-/* INHERITANCE */
+/* color properties */
+/* color background */
+/* background image */
+/* RGB RED GREEN BLUE 0-255 */
+/* RGBA A-OPACITY/ transparency  0-1*/
 
-
-
-
- body{ 
-    color: red;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    border:4px solid black ;
-} 
- .special{ 
-    color: green;
+#first{
+    color:rgba(255,0,0, 1);
+    background-color: rgba(125,0, 20, 0.50);
+    
 }
-h2{ 
-    color: sienna;
- div{ 
-    color: blue;
+#second{
+    color: rgba(255, 0, 0, 0.75);
+    background: rgba(0, 20,230, 0.75);
+    
 }
- span{ 
-    color: greenyellow;
-    text-decoration: dotted;
+#third{
+    color: rgba(255, 0, 0, 0.50);
+    
 }
- p{ 
-    color: blue;
+
+#four{
+    color: rgba(255, 0, 0, 0.25);
+}
+body{
+    background:  rgb(150, 50, 30, 0.50);
 }
