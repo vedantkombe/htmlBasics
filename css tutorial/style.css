@@ -1,13 +1,29 @@
-/*  pixels -absolute values , one dot on the screen 
-font-size - size of the font 
-WIDTH -width of the element
-HEIGHT - height of an element
- */
+/* CALC () 
+PERFORM MATH OPERATION  + - *
+MIX AND MATCH VALUE 
+*/
+*{
+  margin: 0;
+}
+.navbar{
+  background: blue;
+  height: 100px;
+  color: white;
+  font-size: 3rem;
+}
+.banner{
+  background: red;
+  height: calc(100vh - 100px) ;
+}
+.example{
+  background: green;
+  width: 20rem;
+  height: 25rem;
 
- h1{
-    font-size: 60px;
-    background: blue;
-    color: white;
-width: 1000px;
-height: 400px;
+}
+.sec{
+  background: yellow;
+  width: calc(100vh - 20rem);
+  height: calc(100vh - 25rem);
+
 }
