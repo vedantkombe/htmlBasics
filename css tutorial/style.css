@@ -1,29 +1,26 @@
-/* CALC () 
-PERFORM MATH OPERATION  + - *
-MIX AND MATCH VALUE 
-*/
-*{
-  margin: 0;
-}
-.navbar{
-  background: blue;
-  height: 100px;
-  color: white;
+/* 
+line-height - if number * by font size
+letter - spacing 
+word- spacing
+text- transform 
+text-decoration
+ */
+ a{
   font-size: 3rem;
-}
-.banner{
-  background: red;
-  height: calc(100vh - 100px) ;
-}
-.example{
-  background: green;
-  width: 20rem;
-  height: 25rem;
+  text-decoration: wavy;
+ }
+ body{
+  line-height: 4;
 
-}
-.sec{
-  background: yellow;
-  width: calc(100vh - 20rem);
-  height: calc(100vh - 25rem);
-
-}
+ }
+ h1{
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration: line-through;
+ }
+ .one{
+  letter-spacing: 5px;
+ }
+ .two{
+  word-spacing: 10px;
+ }
