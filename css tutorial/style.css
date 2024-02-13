@@ -1,26 +1,45 @@
 /* 
-line-height - if number * by font size
-letter - spacing 
-word- spacing
-text- transform 
-text-decoration
+css box model
+border-radius
+negative margin
  */
- a{
-  font-size: 3rem;
-  text-decoration: wavy;
+ *{
+   margin: 0;
  }
- body{
-  line-height: 4;
+ h1,
+ p{
+    color: white;
 
  }
  h1{
-  font-size: 40px;
-  text-decoration: underline;
-  text-decoration: line-through;
+   background: red; 
+   padding-top: 50px;
+   padding-right: 50px;
+   padding-bottom: 30px;
+   padding-left: 30px;
+   margin: 5px;
+   /* border-style: outset;
+   border-width: 4px;
+   border-color: rgb(9, 185, 115); */
+   /* border-bottom: 1rem dotted blue; */
+border-bottom-style: double;
+border-bottom-color: rgb(92, 209, 92);
+border-bottom-width: 20px;
  }
- .one{
-  letter-spacing: 5px;
+ p{
+    background: blue;
+    border: 1rem dashed red;
+    /* padding: 40px 80px; */
+    padding: 10px 30px 10px 30px;
+    /* margin: 20px 40px; */
+    margin: 10px 20px 30px 40px;
+    border-radius: 50%;
  }
- .two{
-  word-spacing: 10px;
+ h2{
+   background: red;
+   padding: 15px ;
+   border: 20px solid black;
+   border-radius: 40px;
+   margin-top: -30px;
+   outline: invert;
  }
