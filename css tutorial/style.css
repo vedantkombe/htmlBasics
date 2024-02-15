@@ -1,21 +1,26 @@
-/* element Have it set by default
-BLOCK : Always stars a new line and  spans full width
-INLINE : DOES NOT start a new line and spans only content
- */
-
- .block {
-  background: blue;
-  color: white;
-  width: 300px;
-  margin: 0 auto;
-
- }
- .inline{
-  background: red;
-  color: white;
-  
- }
- body{
-  text-align: center;
-  image-orientation:flip;
- }
+/* box sizing: border box 
+default context box
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-1,.box-2,.box-3{
+  width: 200px;
+  height: 200px;
+  color: white;  
+  font-size: 2rem;
+}
+.box-1{
+    background: red;
+    padding: 20px;
+    
+}
+.box-2{
+    background: blue ;
+}
+.box-3{
+    background: green;
+    padding: 50px;
+}
