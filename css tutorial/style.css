@@ -1,45 +1,21 @@
-/* 
-css box model
-border-radius
-negative margin
+/* element Have it set by default
+BLOCK : Always stars a new line and  spans full width
+INLINE : DOES NOT start a new line and spans only content
  */
- *{
-   margin: 0;
- }
- h1,
- p{
-    color: white;
+
+ .block {
+  background: blue;
+  color: white;
+  width: 300px;
+  margin: 0 auto;
 
  }
- h1{
-   background: red; 
-   padding-top: 50px;
-   padding-right: 50px;
-   padding-bottom: 30px;
-   padding-left: 30px;
-   margin: 5px;
-   /* border-style: outset;
-   border-width: 4px;
-   border-color: rgb(9, 185, 115); */
-   /* border-bottom: 1rem dotted blue; */
-border-bottom-style: double;
-border-bottom-color: rgb(92, 209, 92);
-border-bottom-width: 20px;
+ .inline{
+  background: red;
+  color: white;
+  
  }
- p{
-    background: blue;
-    border: 1rem dashed red;
-    /* padding: 40px 80px; */
-    padding: 10px 30px 10px 30px;
-    /* margin: 20px 40px; */
-    margin: 10px 20px 30px 40px;
-    border-radius: 50%;
- }
- h2{
-   background: red;
-   padding: 15px ;
-   border: 20px solid black;
-   border-radius: 40px;
-   margin-top: -30px;
-   outline: invert;
+ body{
+  text-align: center;
+  image-orientation:flip;
  }
